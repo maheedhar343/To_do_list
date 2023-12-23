@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="syle.css">
+    <title>To-Do_list</title>
+</head>
+<body>
+    <div class="container">
+        <div class="todolist">
+            <h2>To-Do_list
+            <img src="https://media.istockphoto.com/id/1285308242/photo/to-do-list-text-on-notepad.jpg?s=612x612&w=0&k=20&c=p85bCVQZwvkrqqqNOJGg2QuPDu6ynTlQHkASQOTELh8=" alt="img">
+        </h2>
+        <div class="row">
+            
+        <input type="text" placeholder="Add your text" id="item">
+        <button onclick="addtask()">add</button>
+
+        </div>
+        <div class="list">
+            <ul id="contant">
+
+            </ul>
+        </div>
+        </div>
+            <div class="part2">
+                <div class="card">
+                    <div class="front">
+                        <h2>Today is<p id="currentDate"></p></h2>
+                        
+                    </div>
+                    <div class="back">
+                        <h2>Current Time<p id="currentTime"></p></h2>
+                        
+                    </div>
+                </div>
+            </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
